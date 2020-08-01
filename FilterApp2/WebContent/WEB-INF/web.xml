@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+		<param-name>ContextVal</param-name>
+		<param-value>3000</param-value>
+	</context-param>
+	<filter>
+		<filter-name>DisFilter</filter-name>
+		<filter-class>test.DisFilter</filter-class>
+			<init-param>
+				<param-name>ConfigVal</param-name>
+				<param-value>2000</param-value>
+			</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>DisFilter</filter-name>
+		<url-pattern>/dis</url-pattern>
+	</filter-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

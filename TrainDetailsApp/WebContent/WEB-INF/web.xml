@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>RegServlet</servlet-name>
+		<servlet-class>test.RegServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegServlet</servlet-name>
+		<url-pattern>/reg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>test.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddTrainServlet</servlet-name>
+		<servlet-class>test.AddTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddTrainServlet</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewServlet</servlet-name>
+		<servlet-class>test.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>/ViewAll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ByNumberServlet</servlet-name>
+		<servlet-class>test.ByNumberServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ByNumberServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteTrainServlet</servlet-name>
+		<servlet-class>test.DeleteTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteTrainServlet</servlet-name>
+		<url-pattern>/del</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+</web-app>

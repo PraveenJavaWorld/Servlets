@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>ViewTrainServlet</servlet-name>
+		<servlet-class>test.ViewTrainServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewTrainServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

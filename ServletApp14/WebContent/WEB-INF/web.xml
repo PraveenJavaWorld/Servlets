@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+		<param-name>ContextVal</param-name>
+		<param-value>2000</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>DisServlet</servlet-name>
+		<servlet-class>test.DisServlet</servlet-class>
+		<init-param>
+			<param-name>ConfigVal</param-name>
+			<param-value>3000</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisServlet</servlet-name>
+		<url-pattern>/dis</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

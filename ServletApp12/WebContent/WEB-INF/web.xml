@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>ViewStudentServlet</servlet-name>
+		<servlet-class>test.ViewStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewStudentServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+</web-app>

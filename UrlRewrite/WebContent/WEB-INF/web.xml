@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>ViewServlet</servlet-name>
+		<servlet-class>test.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DisServlet</servlet-name>
+		<servlet-class>test.DisServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisServlet</servlet-name>
+		<url-pattern>/dis</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<listener>
+		<listener-class>pack.MySessionListener</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>pack.TestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>home.html</welcome-file>
+	</welcome-file-list>
+</web-app>

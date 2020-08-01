@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>test.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/prod</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ThirdServlet</servlet-name>
+		<servlet-class>test.ThirdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ThirdServlet</servlet-name>
+		<url-pattern>/dis</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>Product.html</welcome-file>
+	</welcome-file-list>
+</web-app>
